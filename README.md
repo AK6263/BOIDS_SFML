@@ -1,5 +1,9 @@
+# Boids
 
+Simulation model for flocking behaviour in birds and animals in cpp using SFML Library. 
 
-# Resources 
+To run install SFML 2.5+ [Link](https://www.sfml-dev.org/download/sfml/2.5.1/). For linux users install libsfml from their respective package repositories.
 
-1. https://iq.opengenus.org/snake-game-using-cpp-sfml/
+# TODO List
+
+- [ ] Implement QuadTree

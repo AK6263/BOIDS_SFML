@@ -10,6 +10,7 @@ find_package(SFML 2 REQUIRED COMPONENTS graphics system window)
 find_package(Threads REQUIRED)
 
 set(SFML_LIBS sfml-graphics sfml-system sfml-window)
+set(SFML_STATIC_LIBRARIES TRUE)
 
 file(GLOB SOURCES src/*.cpp)
 add_executable(${PROJECT_NAME} ${WIN32_GUI} ${SOURCES})

@@ -1,5 +1,5 @@
-// #include "BoidSystem_with_copy.hpp" // With copy of a the boidVectors
-#include "BoidSystem.hpp"
+#include "BoidSystem_with_copy.hpp" // With copy of a the boidVectors
+// #include "BoidSystem.hpp"
 #include <SFML/Graphics.hpp>
 #include <cstdlib>
 #include "utils/fps.hpp"
